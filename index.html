@@ -1,1 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-zinc-100">
+    <div class="flex justify-center">
+        <div class="w-[95%] h-[75px] bg-neutral-800 rounded-xl mt-6 flex">
+            <div class="w-[20%] flex justify-center items-center">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Mobicomnewlogo.png/1200px-Mobicomnewlogo.png" class="w-16 h-9 mr-6" alt="">
+                <form class="flex bg-zinc-700 border border-zinc-700 text-white rounded-2xl shadow text-sm h-10 w-55">
+                <div aria-disabled="true" class="w-10 grid place-content-center">
+                    <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    >
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <path d="m21 21-4.3-4.3"></path>
+                    </svg>
+                </div>
+                <input
+                    type="text"
+                    spellcheck="false"
+                    name="text"
+                    class="bg-transparent py-1.5 outline-none placeholder:text-zinc-400 w-20 focus:w-48 transition-all"
+                    placeholder="Search..."
+                />
+                </form>
+            </div>
+            <div class="w-[65%] flex justify-center items-center">
+                <button class="w-25 h-10 rounded-xl bg-neutral-800 text-white font-bold hover:bg-neutral-700">Service</button>
+                <button class="w-17 h-10 rounded-xl bg-neutral-800 text-white font-bold hover:bg-neutral-700">News</button>
+                <button class="w-25 h-10 rounded-xl bg-neutral-800 text-white font-bold hover:bg-neutral-700">Online Shop</button>
+                <button class="w-15 h-10 rounded-xl bg-neutral-800 text-white font-bold hover:bg-neutral-700">5G</button>
+            </div>
+            <div class="w-[15%] flex justify-end items-center justify-between">
+                <button class="w-10 h-10 rounded-xl bg-neutral-700 text-white font-bold hover:bg-neutral-600 mr-3"></button>
+                <button class="w-10 h-10 rounded-xl bg-neutral-700 text-white font-bold hover:bg-neutral-600 mr-3"></button>
+                <button class="w-10 h-10 rounded-xl bg-neutral-700 text-white font-bold hover:bg-neutral-600 mr-5"></button>
+            </div>
+        </div>
+    </div>
+    <div class="flex justify-center items-center">
+        <div class="w-[95%] h-[820px] bg-sky-600 mt-6 rounded-xl flex overflow-hidden">
+            <div class="w-[70%] h-full">
+                <img class="w-full h-full object-cover" src="https://blob.blob.ub.cloud.mobinet.mn/blob/content/mcommerce/uploads/DJI_20231028181037_0240_D_MAX_Recovered_ezgif_com_jpg_to_webp_converter_d02db53f44.webp" alt="hero image">
+            </div>
+            <div class="w-[30%] h-full">
+                <div class="bg-gradient-to-b from-gray-800 to-gray-900 min-h-screen flex items-center justify-center text-gray-800">
 
+                    <div class="w-[350px] bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl shadow-lg p-4">
+                        <div class="flex bg-gray-200 rounded-lg p-1 mb-4">
+                        <button class="flex-1 bg-black text-white rounded-md py-2 font-semibold">Quick action</button>
+                        <button class="flex-1 text-gray-600 py-2 font-semibold hover:text-black">Internet action</button>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-4">
+
+                        <div class="flex flex-col items-center justify-center bg-white/10 hover:bg-white/20 transition rounded-xl p-4">
+                            <div class="bg-red-100 text-red-500 p-3 rounded-full mb-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A2 2 0 0122 9.618v4.764a2 2 0 01-2.447 1.894L15 14M5 10l-4.553-2.276A2 2 0 000 9.618v4.764a2 2 0 002.447 1.894L5 14m10 0l-4.553 2.276A2 2 0 018 14.382V9.618a2 2 0 011.447-1.894L15 10z" />
+                            </svg>
+                            </div>
+                            <p class="text-sm font-medium text-gray-800">Buy unit</p>
+                        </div>
+
+                        <div class="flex flex-col items-center justify-center bg-white/10 hover:bg-white/20 transition rounded-xl p-4">
+                            <div class="bg-red-100 text-red-500 p-3 rounded-full mb-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 20h9m-9-4h9M5 4h14a2 2 0 012 2v2H3V6a2 2 0 012-2zM3 10h18v8a2 2 0 01-2 2H5a2 2 0 01-2-2v-8z" />
+                            </svg>
+                            </div>
+                            <p class="text-sm font-medium text-gray-800">Buy data</p>
+                        </div>
+
+                        <div class="flex flex-col items-center justify-center bg-white/10 hover:bg-white/20 transition rounded-xl p-4">
+                            <div class="bg-red-100 text-red-500 p-3 rounded-full mb-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c0-1.1-.9-2-2-2H8a2 2 0 00-2 2v1H3v2h3v1a2 2 0 002 2h2a2 2 0 002-2v-1h3v-2h-3v-1z" />
+                            </svg>
+                            </div>
+                            <p class="text-sm font-medium text-gray-800">Sim recovery</p>
+                        </div>
+
+                        <div class="flex flex-col items-center justify-center bg-white/10 hover:bg-white/20 transition rounded-xl p-4">
+                            <div class="bg-red-100 text-red-500 p-3 rounded-full mb-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.1 0-2 .9-2 2v1h4v-1c0-1.1-.9-2-2-2zM5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7H5z" />
+                            </svg>
+                            </div>
+                            <p class="text-sm font-medium text-gray-800">Pay bill</p>
+                        </div>
+
+                        <div class="flex flex-col items-center justify-center bg-white/10 hover:bg-white/20 transition rounded-xl p-4">
+                            <div class="bg-red-100 text-red-500 p-3 rounded-full mb-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c1.657 0 3-1.343 3-3S13.657 2 12 2 9 3.343 9 5s1.343 3 3 3zm0 4c-3.866 0-7 3.134-7 7h2a5 5 0 0110 0h2c0-3.866-3.134-7-7-7z" />
+                            </svg>
+                            </div>
+                            <p class="text-sm font-medium text-gray-800">Loan Assessment</p>
+                        </div>
+
+                        <div class="flex flex-col items-center justify-center bg-white/10 hover:bg-white/20 transition rounded-xl p-4">
+                            <div class="bg-red-100 text-red-500 p-3 rounded-full mb-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                            </div>
+                            <p class="text-sm font-medium text-gray-800">New number</p>
+                        </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
