@@ -7,7 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body class="bg-zinc-100">
+<body class="bg-zinc-100 h-[190vh]">
     <div class="flex justify-center">
         <div class="w-[95%] h-[75px] bg-[#2a2a2a] rounded-xl mt-6 flex">
             <div class="w-[20%] flex justify-center items-center">
@@ -54,20 +54,20 @@
     <div class="flex justify-center items-center">
         <div class="w-[95%] h-[820px] mt-6 rounded-xl overflow-hidden relative"> 
             <img class="absolute inset-0 w-full h-full object-cover z-0" src="https://blob.blob.ub.cloud.mobinet.mn/blob/content/mcommerce/uploads/DJI_20231028181037_0240_D_MAX_Recovered_ezgif_com_jpg_to_webp_converter_d02db53f44.webp" alt="">
-            
-            <div class="absolute inset-0 z-10"></div>
+
+            <div class="absolute inset-0 z-10 pointer-events-none bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
             <div class="absolute right-270 top-75 z-20 w-[600px] h-[32%] rounded-2xl shadow-2xl ">
                 <p class="text-5xl font-bold text-white">Simple through smart</p>
             </div>
 
             <div class="absolute right-40 top-30 z-20 w-[510px] h-[62%] rounded-2xl shadow-2xl backdrop-blur-md p-4">
-                <div class="w-120 h-13 bg-white flex justify-center items-center rounded-lg shadow-md">
+                <div class="w-120 h-13 bg-[#FFFFFFD9] flex justify-center items-center rounded-lg shadow-md">
                     <div class="flex items-center gap-3">
                         <button class="w-55 h-9 rounded-xl bg-[#222222] text-white font-semibold text-sm">Quick action</button>
                         <button class="w-55 h-9 rounded-xl text-gray-600 font-medium text-sm">Internet action</button>
                     </div>
                 </div>
-                <div class="w-120 h-103 mt-4 bg-white flex justify-center items-center rounded-lg shadow-md grid grid-cols-2 gap-y-6 gap-x-8 place-items-center">
+                <div class="w-120 h-103 mt-4 bg-[#FFFFFFD9] flex justify-center items-center rounded-lg shadow-md grid grid-cols-2 gap-y-6 gap-x-8 place-items-center">
 
                     <div class="relative flex flex-col items-center justify-center p-3">
                         <div class="w-15 h-15 bg-white rounded-full flex items-center justify-center shadow-md border-2 border-red-400 ring-3 ring-red-100">
@@ -113,6 +113,88 @@
                 </div>
             </div>
         </div>
+        
+    </div>
+    <div class="flex justify-center">
+        <div class="w-[95%] h-[600px] bg-[#2a2a2a] rounded-xl mt-6 ">
+           <div class="w-full h-[35%] flex justify-center items-center">
+              <p class="text-5xl font-bold text-white">Special offers</p>
+           </div>
+           <div class="w-full h-[15%] flex justify-center items-center gap-2" >
+            <div class="flex items-center justify-between bg-[#3D3D3D] rounded-xl border border-gray-600 px-4 py-2 w-120 h-15">
+                <div class="flex items-center gap-6 text-[#A3A3A3] text-sm font-medium">
+                    <button class="bg-white text-black px-4 py-1.5 rounded-xl shadow-sm transition">All</button>
+                    <button class="hover:text-white transition">Promotion</button>
+                    <button class="hover:text-white transition">Registration</button>
+                    <button class="hover:text-white transition">News</button>
+                    <button class="hover:text-white transition">Notice</button>
+                    <button class="hover:text-white transition">Advice</button>
+                </div>
+            </div>
+                <button class="text-white text-sm font-semibold flex items-center gap-1 ml-6 hover:underline">
+                            Details
+                            <span class="text-lg">→</span>
+                </button>
+
+           </div>
+        <div class="w-full h-[50%]">
+            <div class="flex gap-4 overflow-x-auto mt-5">
+                <div class="relative w-90 h-120 bg-gray-800 rounded-xl overflow-hidden flex-shrink-0 transition">
+                        <img src="./1.jpg" alt="Offer 1" class="w-full h-full object-cover opacity-90" />
+                    <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
+                        <div class="absolute bottom-4 left-4 text-white">
+                            <p class="text-lg font-bold">Mobihomers-н гэрт тавтай морил: Цуврал #4</p>
+                        </div>
+                    </div>
+
+                <div class="relative w-90 h-120 bg-gray-800 rounded-xl overflow-hidden flex-shrink-0 transition">
+                            <img src="./2.jpg" alt="Offer 2" class="w-full h-full object-cover opacity-90" />
+                    <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
+                        <div class="absolute bottom-4 left-4 text-white">
+                            <p class="text-lg font-bold">Mobihomers-н гэрт тавтай морил: Цуврал #3</p>
+                        </div>
+                    <div class="absolute top-4 right-4 bg-black/60 p-2 rounded-full">
+                        <i class="fa-solid fa-lightbulb text-yellow-400 text-sm"></i>
+                    </div>
+                </div>
+
+                <div class="relative w-90 h-120 bg-gray-800 rounded-xl overflow-hidden flex-shrink-0 transition">
+                        <img src="./med.webp" alt="Offer 3" class="w-full h-full object-cover opacity-90" />
+                    <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
+                        <div class="absolute bottom-4 left-4 text-white">
+                            <p class="text-lg font-bold">МЭДЭГДЭЛ</p>
+                        </div>
+                        <div class="absolute top-4 right-4 bg-black/60 p-2 rounded-full">
+                            <i class="fa-solid fa-lightbulb text-yellow-400 text-sm"></i>
+                        </div>
+                    </div>
+
+                <div class="relative w-90 h-120 bg-gray-800 rounded-xl overflow-hidden flex-shrink-0 transition">
+                        <img src="./3.jpg" alt="Offer 4" class="w-full h-full object-cover opacity-90" />
+                    <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
+                        <div class="absolute bottom-4 left-4 text-white">
+                            <p class="text-lg font-bold">iPhone 17 загварын Монгол дахь албан ёсны нээлт</p>
+                        </div>
+                        <div class="absolute top-4 right-4 bg-black/60 p-2 rounded-full">
+                            <i class="fa-solid fa-lightbulb text-yellow-400 text-sm"></i>
+                        </div>
+                </div>
+
+                <div class="relative w-90 h-120 bg-gray-800 rounded-xl overflow-hidden flex-shrink-0 transition">
+                        <img src="./ip.png" alt="Offer 4" class="w-full h-full object-cover opacity-90" />
+                    <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
+                        <div class="absolute bottom-4 left-4 text-white">
+                            <p class="text-lg font-bold">iPhone 17 загварын Монгол дахь албан ёсны нээлт</p>
+                        </div>
+                        <div class="absolute top-4 right-4 bg-black/60 p-2 rounded-full">
+                            <i class="fa-solid fa-lightbulb text-yellow-400 text-sm"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+           
     </div>
 </body>
 </html>
