@@ -6,8 +6,18 @@
     <title>Мобиком Корпораци</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        /* Hide scrollbar for targeted containers */
+        .hide-scrollbar {
+            -ms-overflow-style: none; /* IE and Edge */
+            scrollbar-width: none; /* Firefox */
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none; /* Chrome, Safari, Opera */
+        }
+    </style>
 </head>
-<body class="bg-zinc-100 h-[190vh]">
+<body class="bg-zinc-100 h-[240vh]">
     <div class="flex justify-center">
         <div class="w-[95%] h-[75px] bg-[#2a2a2a] rounded-xl mt-6 flex">
             <div class="w-[20%] flex justify-center items-center">
@@ -138,7 +148,7 @@
 
            </div>
         <div class="w-full h-[50%]">
-            <div class="flex gap-4 overflow-x-auto mt-5">
+            <div class="flex gap-4 overflow-x-auto hide-scrollbar mt-5">
                 <div class="relative w-90 h-120 bg-gray-800 rounded-xl overflow-hidden flex-shrink-0 transition">
                         <img src="./1.jpg" alt="" class="w-full h-full object-cover opacity-90" />
                     <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
@@ -196,5 +206,74 @@
         </div>
            
     </div>
+
+    <div class="flex justify-center mt-60">
+        <footer class="w-[95%] h-120 bg-[#2a2a2a] rounded-xl mt-6 p-8 text-white">
+            <div class="grid grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-lg font-semibold mb-4 ml-4">About us</h3>
+                    <ul class="text-sm text-[#A3A3A3] space-y-2 ml-4">
+                        <p>Introduction</p>
+                        <p>Management team</p>
+                        <p>Social responsibipty</p>
+                        <p>Co-operation</p>
+                        <p>Career</p>
+                        <p>Logo</p>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Let us help you</h3>
+                    <ul class="text-sm text-[#A3A3A3] space-y-2">
+                        <p>VAT Info</p>
+                        <p>Find a store</p>
+                        <p>Q&amp;A</p>
+                        <p>Terms of service</p>
+                        <p>Network Coverage</p>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contact</h3>
+                    <div class="text-sm text-[#A3A3A3] space-y-2">
+                        <p>Call center<br><span class="text-white font-semibold">2222</span></p>
+                        <p class="mt-2">Domestic Call<br><span class="text-white font-semibold">1800- 2222</span></p>
+                        <p class="mt-2">Office<br><span class="text-white font-semibold">7575-9944</span></p>
+                        <p class="mt-2">Fax<br><span class="text-white font-semibold">11-310411</span></p>
+                        <p class="mt-3">Address<br>
+                            <span class="text-white">Mongolia, Ulaanbaatar city,<br>Sukhbaatar district, 1st courtyard, UNESCO street - 28,<br>MPM Complex</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-end">
+                        <img class="h-[200px] w-[3000px] ml-8 rounded-lg" src="./ss.png" alt="">
+                    <div class="flex gap-1 mt-2 mr-83">
+                        <button class="w-10 h-10 rounded-xl bg-neutral-700 text-white text-xs hover:bg-neutral-600"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+                        <button class="w-10 h-10 rounded-xl bg-neutral-700 text-white text-xs hover:bg-neutral-600"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                    </div>
+                
+                </div>
+            </div>
+
+            <hr class="border-t border-[#A3A3A3] my-6" />
+
+            <div class="flex justify-between items-center">
+                <div class="flex items-center gap-4 ">
+                    <img src="./mobicom-logo-hq.png" class="w-16 h-9" alt="mobicom logo" />
+                    <span class="text-xs font-semibold text-[#A3A3A3] ml-5">© 1996 - 2025 MOBICOM CORPORATION</span>
+                </div>
+
+                <div class="flex items-center gap-3">
+                    <button class="w-10 h-10 text-md rounded-full bg-[#3D3D3D] flex items-center justify-center"><i class="fa fa-facebook" aria-hidden="true"></i></button>
+                    <button class="w-10 h-10 rounded-full bg-[#3D3D3D] flex items-center justify-center"><i class="fa fa-instagram" aria-hidden="true"></i></button>
+                    <button class="w-10 h-10 rounded-full bg-[#3D3D3D] flex items-center justify-center"><i class="fa fa-twitter" aria-hidden="true"></i></button>
+                    <button class="w-10 h-10 rounded-full bg-[#3D3D3D] flex items-center justify-center"><i class="fa fa-youtube-play" aria-hidden="true"></i></button>
+                    <button class="w-10 h-10 rounded-full bg-[#3D3D3D] flex items-center justify-center"><i class="fa fa-linkedin" aria-hidden="true"></i></button>
+                </div>
+            </div>
+        </footer>
+    </div>
+
 </body>
 </html>
