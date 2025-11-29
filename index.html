@@ -7,13 +7,12 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-        /* Hide scrollbar for targeted containers */
         .hide-scrollbar {
-            -ms-overflow-style: none; /* IE and Edge */
-            scrollbar-width: none; /* Firefox */
+            -ms-overflow-style: none;
+            scrollbar-width: none; 
         }
         .hide-scrollbar::-webkit-scrollbar {
-            display: none; /* Chrome, Safari, Opera */
+            display: none;
         }
     </style>
 </head>
@@ -208,72 +207,111 @@
     </div>
 
     <div class="flex justify-center mt-60">
-        <footer class="w-[95%] h-120 bg-[#2a2a2a] rounded-xl mt-6 p-8 text-white">
-            <div class="grid grid-cols-4 gap-8">
-                <div>
-                    <h3 class="text-lg font-semibold mb-4 ml-4">About us</h3>
-                    <ul class="text-sm text-[#A3A3A3] space-y-2 ml-4">
-                        <p>Introduction</p>
-                        <p>Management team</p>
-                        <p>Social responsibipty</p>
-                        <p>Co-operation</p>
-                        <p>Career</p>
-                        <p>Logo</p>
-                    </ul>
-                </div>
+    <footer class="w-[95%] bg-[#2a2a2a] rounded-xl p-10 text-white"> 
+        
+        <div class="grid grid-cols-4 gap-10">
+            
+            <div>
+                <h3 class="text-lg font-semibold mb-4 ml-2">About us</h3>
+                <ul class="text-sm text-[#A3A3A3] space-y-2 ml-2">
+                    <li>Introduction</li>
+                    <li>Management team</li>
+                    <li>Social responsibility</li>
+                    <li>Co-operation</li>
+                    <li>Career</li>
+                    <li>Logo</li>
+                </ul>
+            </div>
 
-                <div>
-                    <h3 class="text-lg font-semibold mb-4">Let us help you</h3>
-                    <ul class="text-sm text-[#A3A3A3] space-y-2">
-                        <p>VAT Info</p>
-                        <p>Find a store</p>
-                        <p>Q&amp;A</p>
-                        <p>Terms of service</p>
-                        <p>Network Coverage</p>
-                    </ul>
-                </div>
+            <div>
+                <h3 class="text-lg font-semibold mb-4 ml-2">Let us help you</h3>
+                <ul class="text-sm text-[#A3A3A3] space-y-2 ml-2">
+                    <li>VAT Info</li>
+                    <li>Find a store</li>
+                    <li>Q&A</li>
+                    <li>Terms of service</li>
+                    <li>Network Coverage</li>
+                </ul>
+            </div>
 
-                <div>
-                    <h3 class="text-lg font-semibold mb-4">Contact</h3>
-                    <div class="text-sm text-[#A3A3A3] space-y-2">
-                        <p>Call center<br><span class="text-white font-semibold">2222</span></p>
-                        <p class="mt-2">Domestic Call<br><span class="text-white font-semibold">1800- 2222</span></p>
-                        <p class="mt-2">Office<br><span class="text-white font-semibold">7575-9944</span></p>
-                        <p class="mt-2">Fax<br><span class="text-white font-semibold">11-310411</span></p>
-                        <p class="mt-3">Address<br>
-                            <span class="text-white">Mongolia, Ulaanbaatar city,<br>Sukhbaatar district, 1st courtyard, UNESCO street - 28,<br>MPM Complex</span>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="flex flex-col items-end">
-                        <img class="h-[200px] w-[3000px] ml-8 rounded-lg" src="./ss.png" alt="">
-                    <div class="flex gap-1 mt-2 mr-83">
-                        <button class="w-10 h-10 rounded-xl bg-neutral-700 text-white text-xs hover:bg-neutral-600"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
-                        <button class="w-10 h-10 rounded-xl bg-neutral-700 text-white text-xs hover:bg-neutral-600"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
-                    </div>
-                
+            <div>
+                <h3 class="text-lg font-semibold mb-4 ml-2">Contact</h3>
+                <div class="text-sm text-[#A3A3A3] space-y-3 ml-2">
+                    <p>Call center<br><span class="text-white font-semibold">2222</span></p>
+                    <p>Domestic Call<br><span class="text-white font-semibold">1800-2222</span></p>
+                    <p>Office<br><span class="text-white font-semibold">7575-9944</span></p>
+                    <p>Fax<br><span class="text-white font-semibold">11-310411</span></p>
+                    <p>Address<br>
+                        <span class="text-white leading-5">
+                            Mongolia, Ulaanbaatar city,<br>
+                            Sukhbaatar district, 1st courtyard,<br>
+                            UNESCO street – 28,<br>
+                            MPM Complex
+                        </span>
+                    </p>
                 </div>
             </div>
 
-            <hr class="border-t border-[#A3A3A3] my-6" />
+            <div class="col-span-1 flex flex-col items-end">
+                <div class="relative w-[580px] h-[210px] rounded-lg overflow-hidden">
+                    <div class="absolute inset-0"></div>
 
-            <div class="flex justify-between items-center">
-                <div class="flex items-center gap-4 ">
-                    <img src="./mobicom-logo-hq.png" class="w-16 h-9" alt="mobicom logo" />
-                    <span class="text-xs font-semibold text-[#A3A3A3] ml-5">© 1996 - 2025 MOBICOM CORPORATION</span>
+                    <div class="w-full h-full bg-cover bg-center"
+                        style="background-image: url('./ss.png');">
+                    </div>
                 </div>
 
-                <div class="flex items-center gap-3">
-                    <button class="w-10 h-10 text-md rounded-full bg-[#3D3D3D] flex items-center justify-center"><i class="fa fa-facebook" aria-hidden="true"></i></button>
-                    <button class="w-10 h-10 rounded-full bg-[#3D3D3D] flex items-center justify-center"><i class="fa fa-instagram" aria-hidden="true"></i></button>
-                    <button class="w-10 h-10 rounded-full bg-[#3D3D3D] flex items-center justify-center"><i class="fa fa-twitter" aria-hidden="true"></i></button>
-                    <button class="w-10 h-10 rounded-full bg-[#3D3D3D] flex items-center justify-center"><i class="fa fa-youtube-play" aria-hidden="true"></i></button>
-                    <button class="w-10 h-10 rounded-full bg-[#3D3D3D] flex items-center justify-center"><i class="fa fa-linkedin" aria-hidden="true"></i></button>
+                <div class="flex gap-2 mt-4 mr-123">
+                    <button class="w-10 h-10 rounded-xl bg-neutral-700 hover:bg-neutral-600 flex items-center justify-center">
+                        <i class="fa fa-arrow-left text-white"></i>
+                    </button>
+                    <button class="w-10 h-10 rounded-xl bg-neutral-700 hover:bg-neutral-600 flex items-center justify-center">
+                        <i class="fa fa-arrow-right text-white"></i>
+                    </button>
                 </div>
             </div>
-        </footer>
+
+
+        </div>
+
+        <hr class="border-t border-[#8b8b8b] my-8" />
+
+        <div class="flex justify-between items-center">
+            <div class="flex items-center gap-4">
+                <img src="./mobicom-logo-hq.png" class="w-16 h-9" alt="Mobicom logo">
+                <span class="text-xs font-semibold text-[#A3A3A3]">© 1996 - 2025 MOBICOM CORPORATION</span>
+            </div>
+
+            <div class="flex items-center gap-3">
+                <button class="w-10 h-10 rounded-full bg-[#3D3D3D] flex items-center justify-center"><i class="fa fa-facebook"></i></button>
+                <button class="w-10 h-10 rounded-full bg-[#3D3D3D] flex items-center justify-center"><i class="fa fa-instagram"></i></button>
+                <button class="w-10 h-10 rounded-full bg-[#3D3D3D] flex items-center justify-center"><i class="fa fa-twitter"></i></button>
+                <button class="w-10 h-10 rounded-full bg-[#3D3D3D] flex items-center justify-center"><i class="fa fa-youtube-play"></i></button>
+                <button class="w-10 h-10 rounded-full bg-[#3D3D3D] flex items-center justify-center"><i class="fa fa-linkedin"></i></button>
+            </div>
+        </div>
+
+    </footer>
+</div>
+<div class="fixed bottom-0 left-0 w-full z-50"> 
+    <div class="mx-auto w-full h-20 lg:w-[710px] bg-[#1F1F1F] rounded-2xl shadow-xl border border-[#8b8b8b] px-4 py-3 mb-7 flex items-center justify-between">
+        
+        <div class="flex items-center gap-4 text-sm text-[#C7C7C7]">
+            <button class="w-18 h-10 rounded-xl text-white font-semibold hover:bg-neutral-700">Offers</button>
+            <button class="w-25 h-10 rounded-xl text-white font-semibold hover:bg-neutral-700">Online shop</button>
+            <button class="w-15 h-10 rounded-xl text-white font-semibold hover:bg-neutral-700">Help</button>
+            <button class="w-50 h-10 rounded-xl text-white font-semibold hover:bg-neutral-700">Sustainable development</button>
+            <button class="w-15 h-10 rounded-xl text-white font-semibold hover:bg-neutral-700">Apps</button>
+        </div>
+
+        <hr class="border-t-35 border-[#8b8b8b] my-2 w-[1px] opacity-50" />
+
+        <button class="w-9 h-9 mr-5 rounded-full bg-[#2C2C2C] border border-[#8b8b8b] flex items-center justify-center hover:bg-[#3A3A3A] transition">
+            <i class="fa fa-chevron-up text-white"></i>
+        </button>
     </div>
+</div>
+
 
 </body>
 </html>
